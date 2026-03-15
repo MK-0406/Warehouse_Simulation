@@ -2,6 +2,8 @@
 
 A small, single-file concurrency simulation that models a warehouse receiving trailers, performing security checks, unloading containers into loading bays, and moving those containers into storage with forklifts. It uses POSIX threads, semaphores, and mutexes, and prints color-coded logs to visualize the workflow.
 
+Demo link: https://onlinegdb.com/cdLHVt7QB
+
 ## Overview
 - Simulates trailers arriving at random intervals and requesting security checks.
 - Controls loading bays and container availability with semaphores.
